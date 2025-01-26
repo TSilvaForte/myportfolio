@@ -19,3 +19,28 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+a {
+  @apply text-secondary-dark dark:text-secondary-light font-medium hover:text-tertiary dark:hover:text-tertiary transition duration-300
+}
+
+.title a {
+  all: unset !important;
+}
+
+.title {
+  @apply text-3xl font-sleepy font-bold text-tertiary
+}
+
+button {
+  @apply bg-primary-dark text-secondary py-2 px-4 rounded-lg shadow hover:bg-quaternary focus:outline-none font-semibold py-2 px-4 rounded shadow;
+}
+
+
+
+@font-face {
+  font-family: 'SleepyMoody';
+  src: url('/SleepyMoody.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
