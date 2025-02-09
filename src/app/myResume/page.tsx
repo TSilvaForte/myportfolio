@@ -117,7 +117,7 @@ const page = () => {
               >
                 <div className="flex justify-between items-start mb-4">
                   <h4 className="text-xl font-semibold text-primary-dark dark:text-primary-light">
-                    {item.position} - <span className="text-primary-dark">{item.company}</span>
+                    {item.position} - <span className="text-primary-dark dark:text-primary-light">{item.company}</span>
                   </h4>
                   <p className="text-primary-dark dark:text-primary-light">{item.duration}</p>
                 </div>

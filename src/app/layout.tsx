@@ -13,6 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+TZ+Guides&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
           rel="stylesheet"
@@ -21,9 +22,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
       <body className="font-primary">
         <AudioProvider>
-        <DarkModeProvider>
-          <Navbar />
-          {children}
+          <DarkModeProvider>
+            <Navbar />
+            {children}
           </DarkModeProvider>
         </AudioProvider>
 

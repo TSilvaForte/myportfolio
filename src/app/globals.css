@@ -29,7 +29,7 @@ a {
 }
 
 .title {
-  @apply text-3xl font-sleepy font-bold text-tertiary
+  @apply text-3xl md:text-4xl font-sleepy font-bold text-tertiary
 }
 
 button {
@@ -43,4 +43,9 @@ button {
   src: url('/SleepyMoody.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
 }
