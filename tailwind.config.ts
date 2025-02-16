@@ -38,11 +38,17 @@ export default {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' },
         },
+        marqueeFast: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
       },
       animation: {
         "fade-in-scale": "fadeInScale 0.8s ease-out forwards",
-        marquee: 'marquee 50s linear infinite',
+        marquee: "marquee 50s linear infinite",
+        marqueeFast: "marqueeFast 30s linear infinite", // Ajusta la duración para móviles
       },
+      
     },
   },
   plugins: [],

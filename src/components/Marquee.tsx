@@ -27,7 +27,7 @@ const Marquee = () => {
   return (
     <div className="relative overflow-hidden bg-primary py-4">
       {/* Contenedor animado */}
-      <div className="flex animate-marquee gap-8 whitespace-nowrap">
+      <div className="flex animate-marquee sm:animate-marqueeFast gap-8 whitespace-nowrap">
         {/* Generación de elementos con claves únicas */}
         {[...Array(3)].flatMap((_, iteration) =>
           logos.map((logo, logoIndex) => (
