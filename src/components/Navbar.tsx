@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { useAudio } from "../../context/musicContext";
 import { FaVolumeUp, FaVolumeMute } from "react-icons/fa";
